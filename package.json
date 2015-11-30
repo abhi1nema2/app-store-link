@@ -1,0 +1,26 @@
+{
+  "name": "app-store-link",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Generate a link to an iOS or Google Play app",
+  "license": "MIT",
+  "repository": "ajoslin/app-store-link",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "xtend": "^4.0.1"
+  }
+}
