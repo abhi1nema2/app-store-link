@@ -19,7 +19,7 @@ link.ios('123')
 // => https://itunes.apple.com/us/app/id123?mt=8'
 
 link.android('com.my.app')
-// => https://play.android.com/store/apps/details?id=com.my.app
+// => https://play.google.com/store/apps/details?id=com.my.app
 
 link.android('com.my.app', {native: true})
 // => market://details?id=com.my.app
