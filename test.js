@@ -11,7 +11,7 @@ test('ios', function (t) {
 
 test('google play web by default', function (t) {
   var url = link.android('myapp')
-  t.ok(/play.android.com.*?myapp/.test(url), 'play store')
+  t.ok(/play.google.com.*?myapp/.test(url), 'play store')
   t.end()
 })
 

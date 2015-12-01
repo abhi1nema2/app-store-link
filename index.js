@@ -12,7 +12,7 @@ function android (id, options) {
 
   var base = options.native
     ? 'market://details?id='
-    : 'http://play.android.com/store/apps/details?id='
+    : 'http://play.google.com/store/apps/details?id='
 
   return base + id
 }
