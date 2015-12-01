@@ -1,7 +1,7 @@
 {
   "name": "app-store-link",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a link to an iOS or Google Play app",
   "license": "MIT",
   "repository": "ajoslin/app-store-link",
